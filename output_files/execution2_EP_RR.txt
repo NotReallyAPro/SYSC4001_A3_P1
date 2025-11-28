@@ -1,0 +1,38 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                 1 | 10 |   RUNNING |     READY |
+|                 1 | 10 |     READY |   RUNNING |
+|                 2 | 10 |   RUNNING |     READY |
+|                 2 | 10 |     READY |   RUNNING |
+|                 3 | 10 |   RUNNING |     READY |
+|                 3 | 10 |     READY |   RUNNING |
+|                 4 | 10 |   RUNNING |     READY |
+|                 4 | 10 |     READY |   RUNNING |
+|                 5 | 10 |   RUNNING |   WAITING |
+|                 6 | 10 |   WAITING |     READY |
+|                 6 | 10 |     READY |   RUNNING |
+|                 7 | 10 |   RUNNING |     READY |
+|                 7 | 10 |     READY |   RUNNING |
+|                 8 | 10 |   RUNNING |     READY |
+|                 8 | 10 |     READY |   RUNNING |
+|                 9 | 10 |   RUNNING |     READY |
+|                 9 | 10 |     READY |   RUNNING |
+|                10 | 10 |   RUNNING |     READY |
+|                10 | 10 |     READY |   RUNNING |
+|                11 | 10 |   RUNNING |TERMINATED |
++------------------------------------------------+
+time: 0; Process 10: Added
++----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State |
++----------------------------------------------------------------------------------+
+|  10 |          6 |    1 |            0 |         -1 |            10 |      READY |
++----------------------------------------------------------------------------------+
+time: 11; Process 10: Terminated
++----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State |
++----------------------------------------------------------------------------------+
+|  10 |         -1 |    1 |            0 |         10 |             0 | TERMINATED |
++----------------------------------------------------------------------------------+
