@@ -299,7 +299,9 @@ void terminate_process(PCB &running, std::vector<PCB> &job_queue) {
 void run_process(PCB &running, std::vector<PCB> &job_queue, std::vector<PCB> &ready_queue, unsigned int current_time) {
     running = ready_queue.back();
     ready_queue.pop_back();
-    running.start_time = current_time;
+    if(running.start_time == -1) {
+        running.start_time = current_time;
+    }
     running.state = RUNNING;
     sync_queue(job_queue, running);
 }
