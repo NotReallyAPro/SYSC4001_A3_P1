@@ -110,11 +110,8 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
                 idle_CPU(running);
             }
             else if(running.processing_time - running.remaining_time == running.io_freq) {
-                running.state = WAITING;
                 execution_status += print_exec_status(current_time, running.PID, RUNNING, WAITING);
-                sync_queue(job_list, running);
-                running.processing_time = running.io_duration - 1;
-                wait_queue.push_back(running);
+                wait_process(running, job_list, wait_queue);
                 idle_CPU(running);
             }
             else if(counter == 0) {

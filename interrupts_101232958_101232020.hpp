@@ -304,6 +304,14 @@ void run_process(PCB &running, std::vector<PCB> &job_queue, std::vector<PCB> &re
     sync_queue(job_queue, running);
 }
 
+//Set the currently running process to waiting
+void wait_process(PCB &running, std::vector<PCB> &job_queue, std::vector<PCB> &wait_queue) {
+    running.state = WAITING;
+    running.processing_time = running.io_duration - 1;
+    sync_queue(job_queue, running);
+    wait_queue.push_back(running);
+}
+
 void idle_CPU(PCB &running) {
     running.start_time = 0;
     running.burst_time = 0;
