@@ -61,7 +61,7 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
                     na_list.push_back(process);
                 }
                 job_list.push_back(process); //Add it to the list of processes
-                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Added\n";
+                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Arrived\n";
                 system_status += print_PCB(job_list);
             }
         }
@@ -98,8 +98,6 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
         /////////////////////////////////////////////////////////////////
 
         //////////////////////////SCHEDULER//////////////////////////////
-        EP(ready_queue);
-
         //Checks if the process is finished, requires I/O, or continues execution.
         if(running.PID != -1) {
             if(running.remaining_time == 0) {

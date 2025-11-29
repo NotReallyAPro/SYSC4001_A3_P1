@@ -1,0 +1,199 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 82 |       NEW |     READY |
+|                 0 | 82 |     READY |   RUNNING |
+|                 3 | 80 |       NEW |     READY |
+|                25 | 82 |   RUNNING |   WAITING |
+|                25 | 80 |     READY |   RUNNING |
+|                53 | 82 |   WAITING |     READY |
+|                56 | 80 |   RUNNING |   WAITING |
+|                56 | 82 |     READY |   RUNNING |
+|                67 | 17 |       NEW |     READY |
+|                81 | 82 |   RUNNING |   WAITING |
+|                81 | 17 |     READY |   RUNNING |
+|                87 | 81 |       NEW |     READY |
+|                89 | 80 |   WAITING |     READY |
+|               109 | 82 |   WAITING |     READY |
+|               145 | 17 |   RUNNING |   WAITING |
+|               145 | 80 |     READY |   RUNNING |
+|               176 | 80 |   RUNNING |   WAITING |
+|               176 | 81 |     READY |   RUNNING |
+|               198 | 81 |   RUNNING |   WAITING |
+|               198 | 82 |     READY |   RUNNING |
+|               209 | 80 |   WAITING |     READY |
+|               210 | 17 |   WAITING |     READY |
+|               222 | 81 |   WAITING |     READY |
+|               223 | 82 |   RUNNING |   WAITING |
+|               223 | 17 |     READY |   RUNNING |
+|               251 | 82 |   WAITING |     READY |
+|               287 | 17 |   RUNNING |   WAITING |
+|               287 | 80 |     READY |   RUNNING |
+|               318 | 80 |   RUNNING |   WAITING |
+|               318 | 81 |     READY |   RUNNING |
+|               340 | 81 |   RUNNING |   WAITING |
+|               340 | 82 |     READY |   RUNNING |
+|               351 | 80 |   WAITING |     READY |
+|               352 | 17 |   WAITING |     READY |
+|               364 | 81 |   WAITING |     READY |
+|               365 | 82 |   RUNNING |   WAITING |
+|               365 | 17 |     READY |   RUNNING |
+|               393 | 82 |   WAITING |     READY |
+|               429 | 17 |   RUNNING |   WAITING |
+|               429 | 80 |     READY |   RUNNING |
+|               460 | 80 |   RUNNING |   WAITING |
+|               460 | 81 |     READY |   RUNNING |
+|               482 | 81 |   RUNNING |   WAITING |
+|               482 | 82 |     READY |   RUNNING |
+|               493 | 80 |   WAITING |     READY |
+|               494 | 17 |   WAITING |     READY |
+|               506 | 81 |   WAITING |     READY |
+|               507 | 82 |   RUNNING |   WAITING |
+|               507 | 17 |     READY |   RUNNING |
+|               535 | 82 |   WAITING |     READY |
+|               571 | 17 |   RUNNING |   WAITING |
+|               571 | 80 |     READY |   RUNNING |
+|               602 | 80 |   RUNNING |   WAITING |
+|               602 | 81 |     READY |   RUNNING |
+|               624 | 81 |   RUNNING |   WAITING |
+|               624 | 82 |     READY |   RUNNING |
+|               635 | 80 |   WAITING |     READY |
+|               636 | 17 |   WAITING |     READY |
+|               648 | 81 |   WAITING |     READY |
+|               649 | 82 |   RUNNING |   WAITING |
+|               649 | 17 |     READY |   RUNNING |
+|               677 | 82 |   WAITING |     READY |
+|               713 | 17 |   RUNNING |   WAITING |
+|               713 | 80 |     READY |   RUNNING |
+|               744 | 80 |   RUNNING |   WAITING |
+|               744 | 81 |     READY |   RUNNING |
+|               766 | 81 |   RUNNING |   WAITING |
+|               766 | 82 |     READY |   RUNNING |
+|               777 | 80 |   WAITING |     READY |
+|               778 | 17 |   WAITING |     READY |
+|               790 | 81 |   WAITING |     READY |
+|               791 | 82 |   RUNNING |   WAITING |
+|               791 | 17 |     READY |   RUNNING |
+|               792 | 17 |   RUNNING |TERMINATED |
+|               792 | 80 |     READY |   RUNNING |
+|               819 | 82 |   WAITING |     READY |
+|               823 | 80 |   RUNNING |   WAITING |
+|               823 | 81 |     READY |   RUNNING |
+|               845 | 81 |   RUNNING |   WAITING |
+|               845 | 82 |     READY |   RUNNING |
+|               856 | 80 |   WAITING |     READY |
+|               869 | 81 |   WAITING |     READY |
+|               870 | 82 |   RUNNING |   WAITING |
+|               870 | 80 |     READY |   RUNNING |
+|               898 | 82 |   WAITING |     READY |
+|               901 | 80 |   RUNNING |   WAITING |
+|               901 | 81 |     READY |   RUNNING |
+|               923 | 81 |   RUNNING |   WAITING |
+|               923 | 82 |     READY |   RUNNING |
+|               934 | 80 |   WAITING |     READY |
+|               947 | 81 |   WAITING |     READY |
+|               948 | 82 |   RUNNING |   WAITING |
+|               948 | 80 |     READY |   RUNNING |
+|               976 | 82 |   WAITING |     READY |
+|               979 | 80 |   RUNNING |   WAITING |
+|               979 | 81 |     READY |   RUNNING |
+|              1001 | 81 |   RUNNING |   WAITING |
+|              1001 | 82 |     READY |   RUNNING |
+|              1012 | 80 |   WAITING |     READY |
+|              1025 | 81 |   WAITING |     READY |
+|              1026 | 82 |   RUNNING |   WAITING |
+|              1026 | 80 |     READY |   RUNNING |
+|              1054 | 82 |   WAITING |     READY |
+|              1057 | 80 |   RUNNING |   WAITING |
+|              1057 | 81 |     READY |   RUNNING |
+|              1079 | 81 |   RUNNING |   WAITING |
+|              1079 | 82 |     READY |   RUNNING |
+|              1080 | 82 |   RUNNING |TERMINATED |
+|              1090 | 80 |   WAITING |     READY |
+|              1090 | 80 |     READY |   RUNNING |
+|              1103 | 81 |   WAITING |     READY |
+|              1121 | 80 |   RUNNING |   WAITING |
+|              1121 | 81 |     READY |   RUNNING |
+|              1123 | 81 |   RUNNING |TERMINATED |
+|              1154 | 80 |   WAITING |     READY |
+|              1154 | 80 |     READY |   RUNNING |
+|              1185 | 80 |   RUNNING |   WAITING |
+|              1218 | 80 |   WAITING |     READY |
+|              1218 | 80 |     READY |   RUNNING |
+|              1249 | 80 |   RUNNING |   WAITING |
+|              1282 | 80 |   WAITING |     READY |
+|              1282 | 80 |     READY |   RUNNING |
+|              1313 | 80 |   RUNNING |   WAITING |
+|              1346 | 80 |   WAITING |     READY |
+|              1346 | 80 |     READY |   RUNNING |
+|              1377 | 80 |   RUNNING |   WAITING |
+|              1410 | 80 |   WAITING |     READY |
+|              1410 | 80 |     READY |   RUNNING |
+|              1430 | 80 |   RUNNING |TERMINATED |
++------------------------------------------------+
+time: 0; Process 82: Arrived
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |          6 |    2 |            0 |         -1 |           251 |       READY |
++-----------------------------------------------------------------------------------+
+time: 3; Process 80: Arrived
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |          6 |    2 |            0 |          0 |           251 |     RUNNING |
+|  80 |          2 |   17 |            3 |         -1 |           485 |       READY |
++-----------------------------------------------------------------------------------+
+time: 67; Process 17: Arrived
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |          6 |    2 |            0 |         56 |           226 |     RUNNING |
+|  80 |          2 |   17 |            3 |         25 |           454 |     WAITING |
+|  17 |          5 |    8 |           67 |         -1 |           321 |       READY |
++-----------------------------------------------------------------------------------+
+time: 87; Process 81: Arrived
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |          6 |    2 |            0 |         56 |           201 |     WAITING |
+|  80 |          2 |   17 |            3 |         25 |           454 |     WAITING |
+|  17 |          5 |    8 |           67 |         81 |           321 |     RUNNING |
+|  81 |          4 |    6 |           87 |         -1 |           200 |       READY |
++-----------------------------------------------------------------------------------+
+time: 792; Process 17: Terminated
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |          6 |    2 |            0 |        766 |            76 |     WAITING |
+|  80 |          2 |   17 |            3 |        713 |           299 |       READY |
+|  17 |         -1 |    8 |           67 |        791 |             0 |  TERMINATED |
+|  81 |          4 |    6 |           87 |        744 |            90 |       READY |
++-----------------------------------------------------------------------------------+
+time: 1080; Process 82: Terminated
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |         -1 |    2 |            0 |       1079 |             0 |  TERMINATED |
+|  80 |          2 |   17 |            3 |       1026 |           175 |     WAITING |
+|  17 |         -1 |    8 |           67 |        791 |             0 |  TERMINATED |
+|  81 |          4 |    6 |           87 |       1057 |             2 |     WAITING |
++-----------------------------------------------------------------------------------+
+time: 1123; Process 81: Terminated
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |         -1 |    2 |            0 |       1079 |             0 |  TERMINATED |
+|  80 |          2 |   17 |            3 |       1090 |           144 |     WAITING |
+|  17 |         -1 |    8 |           67 |        791 |             0 |  TERMINATED |
+|  81 |         -1 |    6 |           87 |       1121 |             0 |  TERMINATED |
++-----------------------------------------------------------------------------------+
+time: 1430; Process 80: Terminated
++-----------------------------------------------------------------------------------+
+| PID |  Partition | Size | Arrival Time | Start Time |Remaining Time |      State  |
++-----------------------------------------------------------------------------------+
+|  82 |         -1 |    2 |            0 |       1079 |             0 |  TERMINATED |
+|  80 |         -1 |   17 |            3 |       1410 |             0 |  TERMINATED |
+|  17 |         -1 |    8 |           67 |        791 |             0 |  TERMINATED |
+|  81 |         -1 |    6 |           87 |       1121 |             0 |  TERMINATED |
++-----------------------------------------------------------------------------------+

@@ -86,7 +86,7 @@ std::vector<std::string> split_delim(std::string input, std::string delim) {
 
 //Function that takes a queue as an input and outputs a string table of PCBs
 std::string print_PCB(std::vector<PCB> _PCB) {
-    const int tableWidth = 83;
+    const int tableWidth = 84;
 
     std::stringstream buffer;
     
@@ -108,7 +108,7 @@ std::string print_PCB(std::vector<PCB> _PCB) {
               << std::setfill(' ') << std::setw(14) << "Remaining Time"
               << std::setw(2) << "|"
               << std::setfill(' ') << std::setw(11) << "State"
-              << std::setw(2) << "|" << std::endl;
+              << std::setw(3) << "|" << std::endl;
     
     // Print separator
     buffer << "+" << std::setfill('-') << std::setw(tableWidth) << "+" << std::endl;
@@ -128,7 +128,7 @@ std::string print_PCB(std::vector<PCB> _PCB) {
                   << std::setw(2) << "|"
                   << std::setw(14) << program.remaining_time
                   << std::setw(2) << "|"
-                  << std::setw(11) << program.state
+                  << std::setw(12) << program.state
                   << std::setw(2) << "|" << std::endl;
     }
     

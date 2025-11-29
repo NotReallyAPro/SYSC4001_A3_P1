@@ -63,7 +63,7 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
                     na_list.push_back(process);
                 }
                 job_list.push_back(process); //Add it to the list of processes
-                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Added\n";
+                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Arrived\n";
                 system_status += print_PCB(job_list);
             }
         }

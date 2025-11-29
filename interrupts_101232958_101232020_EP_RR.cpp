@@ -6,7 +6,7 @@
  */
 
 #include<interrupts_101232958_101232020.hpp>
-#define TIME_SLICE 1
+#define TIME_SLICE 100
 
 void EP(std::vector<PCB> &ready_queue) {
     std::sort( 
@@ -63,7 +63,7 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
                     na_list.push_back(process);
                 }
                 job_list.push_back(process); //Add it to the list of processes
-                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Added\n";
+                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Arrived\n";
                 system_status += print_PCB(job_list);
             }
         }
@@ -100,8 +100,6 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
         /////////////////////////////////////////////////////////////////
 
         //////////////////////////SCHEDULER//////////////////////////////
-        EP(ready_queue);
-
         //Checks if the process is finished, requires I/O, used up its time quantum, or needs more time to process.
         if(running.PID != -1) {
             if(running.remaining_time == 0) {
