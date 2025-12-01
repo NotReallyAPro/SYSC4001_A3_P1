@@ -328,4 +328,34 @@ void idle_CPU(PCB &running) {
     running.PID = -1;
 }
 
+//Takes a list of PCB and the total termination time to print throughtput, average response time, average turnaround time, and average wait time.
+std::string print_info(std::vector<PCB> _PCB, unsigned int current_time, unsigned int total_termination) {
+    std::string info;
+    float response_time = 0;
+    float turnaround_time = total_termination;
+    float burst_time = 0;
+
+    for(auto &process : _PCB) {
+        response_time += process.start_time - process.arrival_time;
+        turnaround_time -= process.arrival_time;
+        burst_time += process.burst_time;
+        if(process.io_freq != 0) {
+            burst_time += (process.burst_time / process.io_freq) * process.io_duration;
+            if(process.burst_time % process.io_freq == 0) {
+                burst_time -= process.io_duration;
+            }
+        }
+    }
+    response_time /= _PCB.size();
+    turnaround_time /= _PCB.size();
+    burst_time /= _PCB.size();
+
+    info += "Throughput: " + std::to_string(current_time) + "\n";
+    info += "Average response time: " + std::to_string(response_time) + "\n";
+    info += "Average turnaround time: " + std::to_string(turnaround_time) + "\n";
+    info += "Average wait time: " + std::to_string(turnaround_time - burst_time) + "\n";
+
+    return info;
+}
+
 #endif

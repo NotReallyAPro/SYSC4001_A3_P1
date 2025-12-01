@@ -27,13 +27,13 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
                                     //to make the code easier :).
     std::vector<PCB> na_list;       //List of unassigned processes;
     unsigned int current_time = 0;
+    unsigned int total_termination = 0;
     PCB running;
 
     //Initialize an empty running process
     idle_CPU(running);
 
     std::string execution_status;
-    std::string system_status;
 
     //make the output table (the header row)
     execution_status = print_exec_header();
@@ -61,8 +61,6 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
                     na_list.push_back(process);
                 }
                 job_list.push_back(process); //Add it to the list of processes
-                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(process.PID) + ": Arrived\n";
-                system_status += print_PCB(job_list);
             }
         }
 
@@ -102,9 +100,8 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
         if(running.PID != -1) {
             if(running.remaining_time == 0) {
                 execution_status += print_exec_status(current_time, running.PID, RUNNING, TERMINATED);
-                system_status += "time: " + std::to_string(current_time) + "; Process " + std::to_string(running.PID) + ": Terminated\n";
                 terminate_process(running, job_list);
-                system_status += print_PCB(job_list);
+                total_termination += current_time;
                 idle_CPU(running);
             }
             else if(running.processing_time - running.remaining_time == running.io_freq) {
@@ -136,7 +133,7 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
     }
     
     //Close the output table
-    execution_status += print_exec_footer() + system_status;
+    execution_status += print_exec_footer() + print_info(job_list, current_time - 1, total_termination);
 
     return std::make_tuple(execution_status);
 }
