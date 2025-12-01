@@ -1,0 +1,142 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 75 |       NEW |     READY |
+|                 0 | 75 |     READY |   RUNNING |
+|                 1 | 96 |       NEW |     READY |
+|                 6 | 50 |       NEW |     READY |
+|                34 | 61 |       NEW |     READY |
+|                45 | 55 |       NEW |     READY |
+|                78 | 21 |       NEW |     READY |
+|               100 | 75 |   RUNNING |     READY |
+|               100 | 96 |     READY |   RUNNING |
+|               200 | 96 |   RUNNING |     READY |
+|               200 | 50 |     READY |   RUNNING |
+|               300 | 50 |   RUNNING |     READY |
+|               300 | 61 |     READY |   RUNNING |
+|               400 | 61 |   RUNNING |     READY |
+|               400 | 55 |     READY |   RUNNING |
+|               500 | 55 |   RUNNING |     READY |
+|               500 | 21 |     READY |   RUNNING |
+|               600 | 21 |   RUNNING |     READY |
+|               600 | 75 |     READY |   RUNNING |
+|               655 | 75 |   RUNNING |   WAITING |
+|               655 | 96 |     READY |   RUNNING |
+|               702 | 75 |   WAITING |     READY |
+|               755 | 96 |   RUNNING |     READY |
+|               755 | 50 |     READY |   RUNNING |
+|               855 | 50 |   RUNNING |     READY |
+|               855 | 61 |     READY |   RUNNING |
+|               955 | 61 |   RUNNING |     READY |
+|               955 | 55 |     READY |   RUNNING |
+|              1055 | 55 |   RUNNING |     READY |
+|              1055 | 21 |     READY |   RUNNING |
+|              1155 | 21 |   RUNNING |     READY |
+|              1155 | 75 |     READY |   RUNNING |
+|              1255 | 75 |   RUNNING |     READY |
+|              1255 | 96 |     READY |   RUNNING |
+|              1355 | 96 |   RUNNING |     READY |
+|              1355 | 50 |     READY |   RUNNING |
+|              1455 | 50 |   RUNNING |     READY |
+|              1455 | 61 |     READY |   RUNNING |
+|              1555 | 61 |   RUNNING |     READY |
+|              1555 | 55 |     READY |   RUNNING |
+|              1605 | 55 |   RUNNING |   WAITING |
+|              1605 | 21 |     READY |   RUNNING |
+|              1662 | 55 |   WAITING |     READY |
+|              1705 | 21 |   RUNNING |     READY |
+|              1705 | 75 |     READY |   RUNNING |
+|              1760 | 75 |   RUNNING |   WAITING |
+|              1760 | 96 |     READY |   RUNNING |
+|              1807 | 75 |   WAITING |     READY |
+|              1840 | 96 |   RUNNING |   WAITING |
+|              1840 | 50 |     READY |   RUNNING |
+|              1884 | 50 |   RUNNING |   WAITING |
+|              1884 | 61 |     READY |   RUNNING |
+|              1916 | 96 |   WAITING |     READY |
+|              1984 | 61 |   RUNNING |     READY |
+|              1984 | 55 |     READY |   RUNNING |
+|              2084 | 55 |   RUNNING |     READY |
+|              2084 | 21 |     READY |   RUNNING |
+|              2113 | 50 |   WAITING |     READY |
+|              2184 | 21 |   RUNNING |     READY |
+|              2184 | 75 |     READY |   RUNNING |
+|              2284 | 75 |   RUNNING |     READY |
+|              2284 | 96 |     READY |   RUNNING |
+|              2384 | 96 |   RUNNING |     READY |
+|              2384 | 61 |     READY |   RUNNING |
+|              2484 | 61 |   RUNNING |     READY |
+|              2484 | 55 |     READY |   RUNNING |
+|              2584 | 55 |   RUNNING |     READY |
+|              2584 | 50 |     READY |   RUNNING |
+|              2684 | 50 |   RUNNING |     READY |
+|              2684 | 21 |     READY |   RUNNING |
+|              2784 | 21 |   RUNNING |     READY |
+|              2784 | 75 |     READY |   RUNNING |
+|              2839 | 75 |   RUNNING |   WAITING |
+|              2839 | 96 |     READY |   RUNNING |
+|              2886 | 75 |   WAITING |     READY |
+|              2939 | 96 |   RUNNING |     READY |
+|              2939 | 61 |     READY |   RUNNING |
+|              3039 | 61 |   RUNNING |     READY |
+|              3039 | 55 |     READY |   RUNNING |
+|              3089 | 55 |   RUNNING |   WAITING |
+|              3089 | 50 |     READY |   RUNNING |
+|              3146 | 55 |   WAITING |     READY |
+|              3189 | 50 |   RUNNING |     READY |
+|              3189 | 21 |     READY |   RUNNING |
+|              3195 | 21 |   RUNNING |   WAITING |
+|              3195 | 75 |     READY |   RUNNING |
+|              3295 | 75 |   RUNNING |     READY |
+|              3295 | 96 |     READY |   RUNNING |
+|              3395 | 96 |   RUNNING |     READY |
+|              3395 | 61 |     READY |   RUNNING |
+|              3408 | 21 |   WAITING |     READY |
+|              3495 | 61 |   RUNNING |     READY |
+|              3495 | 55 |     READY |   RUNNING |
+|              3595 | 55 |   RUNNING |     READY |
+|              3595 | 50 |     READY |   RUNNING |
+|              3651 | 50 |   RUNNING |TERMINATED |
+|              3651 | 75 |     READY |   RUNNING |
+|              3706 | 75 |   RUNNING |   WAITING |
+|              3706 | 96 |     READY |   RUNNING |
+|              3753 | 75 |   WAITING |     READY |
+|              3786 | 96 |   RUNNING |   WAITING |
+|              3786 | 21 |     READY |   RUNNING |
+|              3862 | 96 |   WAITING |     READY |
+|              3886 | 21 |   RUNNING |     READY |
+|              3886 | 61 |     READY |   RUNNING |
+|              3986 | 61 |   RUNNING |     READY |
+|              3986 | 55 |     READY |   RUNNING |
+|              4086 | 55 |   RUNNING |     READY |
+|              4086 | 75 |     READY |   RUNNING |
+|              4186 | 75 |   RUNNING |     READY |
+|              4186 | 96 |     READY |   RUNNING |
+|              4286 | 96 |   RUNNING |     READY |
+|              4286 | 21 |     READY |   RUNNING |
+|              4386 | 21 |   RUNNING |     READY |
+|              4386 | 61 |     READY |   RUNNING |
+|              4393 | 61 |   RUNNING |   WAITING |
+|              4393 | 55 |     READY |   RUNNING |
+|              4443 | 55 |   RUNNING |   WAITING |
+|              4443 | 75 |     READY |   RUNNING |
+|              4457 | 75 |   RUNNING |TERMINATED |
+|              4457 | 96 |     READY |   RUNNING |
+|              4497 | 96 |   RUNNING |TERMINATED |
+|              4497 | 21 |     READY |   RUNNING |
+|              4500 | 55 |   WAITING |     READY |
+|              4522 | 21 |   RUNNING |TERMINATED |
+|              4522 | 55 |     READY |   RUNNING |
+|              4622 | 55 |   RUNNING |     READY |
+|              4622 | 55 |     READY |   RUNNING |
+|              4640 | 61 |   WAITING |     READY |
+|              4722 | 55 |   RUNNING |     READY |
+|              4722 | 61 |     READY |   RUNNING |
+|              4759 | 61 |   RUNNING |TERMINATED |
+|              4759 | 55 |     READY |   RUNNING |
+|              4800 | 55 |   RUNNING |TERMINATED |
++------------------------------------------------+
+Throughput: 4800
+Average response time: 222.666672
+Average turnaround time: 4420.333496
+Average wait time: 3420.333496

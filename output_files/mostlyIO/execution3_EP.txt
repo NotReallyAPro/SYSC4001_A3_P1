@@ -1,0 +1,134 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 98 |       NEW |     READY |
+|                 0 | 98 |     READY |   RUNNING |
+|                26 | 34 |       NEW |     READY |
+|                59 | 78 |       NEW |     READY |
+|                70 | 97 |       NEW |     READY |
+|               181 | 98 |   RUNNING |   WAITING |
+|               181 | 34 |     READY |   RUNNING |
+|               307 | 34 |   RUNNING |   WAITING |
+|               307 | 78 |     READY |   RUNNING |
+|               326 | 78 |   RUNNING |   WAITING |
+|               326 | 97 |     READY |   RUNNING |
+|               340 | 97 |   RUNNING |   WAITING |
+|               386 | 78 |   WAITING |     READY |
+|               386 | 78 |     READY |   RUNNING |
+|               405 | 78 |   RUNNING |   WAITING |
+|               412 | 97 |   WAITING |     READY |
+|               412 | 97 |     READY |   RUNNING |
+|               426 | 97 |   RUNNING |   WAITING |
+|               465 | 78 |   WAITING |     READY |
+|               465 | 78 |     READY |   RUNNING |
+|               484 | 78 |   RUNNING |   WAITING |
+|               498 | 97 |   WAITING |     READY |
+|               498 | 97 |     READY |   RUNNING |
+|               512 | 97 |   RUNNING |   WAITING |
+|               544 | 78 |   WAITING |     READY |
+|               544 | 78 |     READY |   RUNNING |
+|               563 | 78 |   RUNNING |   WAITING |
+|               584 | 97 |   WAITING |     READY |
+|               584 | 97 |     READY |   RUNNING |
+|               598 | 97 |   RUNNING |   WAITING |
+|               623 | 78 |   WAITING |     READY |
+|               623 | 78 |     READY |   RUNNING |
+|               642 | 78 |   RUNNING |   WAITING |
+|               670 | 97 |   WAITING |     READY |
+|               670 | 97 |     READY |   RUNNING |
+|               684 | 97 |   RUNNING |   WAITING |
+|               702 | 78 |   WAITING |     READY |
+|               702 | 78 |     READY |   RUNNING |
+|               721 | 78 |   RUNNING |   WAITING |
+|               756 | 97 |   WAITING |     READY |
+|               756 | 97 |     READY |   RUNNING |
+|               770 | 97 |   RUNNING |   WAITING |
+|               781 | 78 |   WAITING |     READY |
+|               781 | 78 |     READY |   RUNNING |
+|               793 | 98 |   WAITING |     READY |
+|               800 | 78 |   RUNNING |   WAITING |
+|               800 | 98 |     READY |   RUNNING |
+|               842 | 97 |   WAITING |     READY |
+|               860 | 78 |   WAITING |     READY |
+|               981 | 98 |   RUNNING |   WAITING |
+|               981 | 78 |     READY |   RUNNING |
+|              1000 | 78 |   RUNNING |   WAITING |
+|              1000 | 97 |     READY |   RUNNING |
+|              1014 | 97 |   RUNNING |   WAITING |
+|              1060 | 78 |   WAITING |     READY |
+|              1060 | 78 |     READY |   RUNNING |
+|              1079 | 78 |   RUNNING |   WAITING |
+|              1086 | 97 |   WAITING |     READY |
+|              1086 | 97 |     READY |   RUNNING |
+|              1100 | 97 |   RUNNING |   WAITING |
+|              1139 | 78 |   WAITING |     READY |
+|              1139 | 78 |     READY |   RUNNING |
+|              1158 | 78 |   RUNNING |   WAITING |
+|              1172 | 97 |   WAITING |     READY |
+|              1172 | 97 |     READY |   RUNNING |
+|              1186 | 97 |   RUNNING |   WAITING |
+|              1218 | 78 |   WAITING |     READY |
+|              1218 | 78 |     READY |   RUNNING |
+|              1237 | 78 |   RUNNING |   WAITING |
+|              1258 | 97 |   WAITING |     READY |
+|              1258 | 97 |     READY |   RUNNING |
+|              1272 | 97 |   RUNNING |   WAITING |
+|              1297 | 78 |   WAITING |     READY |
+|              1297 | 78 |     READY |   RUNNING |
+|              1316 | 78 |   RUNNING |   WAITING |
+|              1344 | 97 |   WAITING |     READY |
+|              1344 | 97 |     READY |   RUNNING |
+|              1358 | 97 |   RUNNING |   WAITING |
+|              1376 | 78 |   WAITING |     READY |
+|              1376 | 78 |     READY |   RUNNING |
+|              1395 | 78 |   RUNNING |   WAITING |
+|              1430 | 97 |   WAITING |     READY |
+|              1430 | 97 |     READY |   RUNNING |
+|              1444 | 97 |   RUNNING |   WAITING |
+|              1455 | 78 |   WAITING |     READY |
+|              1455 | 78 |     READY |   RUNNING |
+|              1474 | 78 |   RUNNING |   WAITING |
+|              1516 | 97 |   WAITING |     READY |
+|              1516 | 97 |     READY |   RUNNING |
+|              1530 | 97 |   RUNNING |   WAITING |
+|              1534 | 78 |   WAITING |     READY |
+|              1534 | 78 |     READY |   RUNNING |
+|              1553 | 78 |   RUNNING |   WAITING |
+|              1591 | 34 |   WAITING |     READY |
+|              1591 | 34 |     READY |   RUNNING |
+|              1593 | 98 |   WAITING |     READY |
+|              1602 | 97 |   WAITING |     READY |
+|              1613 | 78 |   WAITING |     READY |
+|              1675 | 34 |   RUNNING |TERMINATED |
+|              1675 | 78 |     READY |   RUNNING |
+|              1694 | 78 |   RUNNING |   WAITING |
+|              1694 | 97 |     READY |   RUNNING |
+|              1708 | 97 |   RUNNING |   WAITING |
+|              1708 | 98 |     READY |   RUNNING |
+|              1726 | 98 |   RUNNING |TERMINATED |
+|              1754 | 78 |   WAITING |     READY |
+|              1754 | 78 |     READY |   RUNNING |
+|              1773 | 78 |   RUNNING |   WAITING |
+|              1780 | 97 |   WAITING |     READY |
+|              1780 | 97 |     READY |   RUNNING |
+|              1794 | 97 |   RUNNING |   WAITING |
+|              1833 | 78 |   WAITING |     READY |
+|              1833 | 78 |     READY |   RUNNING |
+|              1852 | 78 |   RUNNING |   WAITING |
+|              1866 | 97 |   WAITING |     READY |
+|              1866 | 97 |     READY |   RUNNING |
+|              1880 | 97 |   RUNNING |   WAITING |
+|              1912 | 78 |   WAITING |     READY |
+|              1912 | 78 |     READY |   RUNNING |
+|              1931 | 78 |   RUNNING |   WAITING |
+|              1952 | 97 |   WAITING |     READY |
+|              1952 | 97 |     READY |   RUNNING |
+|              1963 | 97 |   RUNNING |TERMINATED |
+|              1991 | 78 |   WAITING |     READY |
+|              1991 | 78 |     READY |   RUNNING |
+|              2005 | 78 |   RUNNING |TERMINATED |
++------------------------------------------------+
+Throughput: 2005
+Average response time: 164.750000
+Average turnaround time: 1803.500000
+Average wait time: 303.500000
