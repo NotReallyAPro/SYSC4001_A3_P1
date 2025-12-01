@@ -1,0 +1,62 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 75 |       NEW |     READY |
+|                 0 | 75 |     READY |   RUNNING |
+|                 1 | 96 |       NEW |     READY |
+|                 6 | 50 |       NEW |     READY |
+|                34 | 61 |       NEW |     READY |
+|                45 | 55 |       NEW |     READY |
+|                78 | 21 |       NEW |     READY |
+|               155 | 75 |   RUNNING |   WAITING |
+|               155 | 21 |     READY |   RUNNING |
+|               202 | 75 |   WAITING |     READY |
+|               661 | 21 |   RUNNING |   WAITING |
+|               661 | 50 |     READY |   RUNNING |
+|               874 | 21 |   WAITING |     READY |
+|              1005 | 50 |   RUNNING |   WAITING |
+|              1005 | 21 |     READY |   RUNNING |
+|              1230 | 21 |   RUNNING |TERMINATED |
+|              1230 | 55 |     READY |   RUNNING |
+|              1234 | 50 |   WAITING |     READY |
+|              1480 | 55 |   RUNNING |   WAITING |
+|              1480 | 50 |     READY |   RUNNING |
+|              1537 | 55 |   WAITING |     READY |
+|              1736 | 50 |   RUNNING |TERMINATED |
+|              1736 | 55 |     READY |   RUNNING |
+|              1986 | 55 |   RUNNING |   WAITING |
+|              1986 | 61 |     READY |   RUNNING |
+|              2043 | 55 |   WAITING |     READY |
+|              2793 | 61 |   RUNNING |   WAITING |
+|              2793 | 55 |     READY |   RUNNING |
+|              3040 | 61 |   WAITING |     READY |
+|              3043 | 55 |   RUNNING |   WAITING |
+|              3043 | 61 |     READY |   RUNNING |
+|              3080 | 61 |   RUNNING |TERMINATED |
+|              3080 | 75 |     READY |   RUNNING |
+|              3100 | 55 |   WAITING |     READY |
+|              3235 | 75 |   RUNNING |   WAITING |
+|              3235 | 55 |     READY |   RUNNING |
+|              3282 | 75 |   WAITING |     READY |
+|              3476 | 55 |   RUNNING |TERMINATED |
+|              3476 | 75 |     READY |   RUNNING |
+|              3631 | 75 |   RUNNING |   WAITING |
+|              3631 | 96 |     READY |   RUNNING |
+|              3678 | 75 |   WAITING |     READY |
+|              4011 | 96 |   RUNNING |   WAITING |
+|              4011 | 75 |     READY |   RUNNING |
+|              4087 | 96 |   WAITING |     READY |
+|              4166 | 75 |   RUNNING |   WAITING |
+|              4166 | 96 |     READY |   RUNNING |
+|              4213 | 75 |   WAITING |     READY |
+|              4546 | 96 |   RUNNING |   WAITING |
+|              4546 | 75 |     READY |   RUNNING |
+|              4622 | 96 |   WAITING |     READY |
+|              4660 | 75 |   RUNNING |TERMINATED |
+|              4660 | 96 |     READY |   RUNNING |
+|              4800 | 96 |   RUNNING |TERMINATED |
++------------------------------------------------+
+Throughput: 4800
+Average response time: 1249.833374
+Average turnaround time: 3136.333252
+Average wait time: 2136.333252

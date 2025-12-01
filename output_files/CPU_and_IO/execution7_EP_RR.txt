@@ -1,0 +1,123 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 82 |       NEW |     READY |
+|                 0 | 82 |     READY |   RUNNING |
+|                 3 | 80 |       NEW |     READY |
+|                63 | 82 |   RUNNING |   WAITING |
+|                63 | 80 |     READY |   RUNNING |
+|                67 | 17 |       NEW |     READY |
+|                87 | 81 |       NEW |     READY |
+|               125 | 82 |   WAITING |     READY |
+|               153 | 80 |   RUNNING |   WAITING |
+|               153 | 17 |     READY |   RUNNING |
+|               245 | 80 |   WAITING |     READY |
+|               253 | 17 |   RUNNING |     READY |
+|               253 | 17 |     READY |   RUNNING |
+|               353 | 17 |   RUNNING |     READY |
+|               353 | 17 |     READY |   RUNNING |
+|               374 | 17 |   RUNNING |   WAITING |
+|               374 | 80 |     READY |   RUNNING |
+|               464 | 80 |   RUNNING |   WAITING |
+|               464 | 81 |     READY |   RUNNING |
+|               556 | 80 |   WAITING |     READY |
+|               557 | 81 |   RUNNING |   WAITING |
+|               557 | 80 |     READY |   RUNNING |
+|               625 | 81 |   WAITING |     READY |
+|               647 | 80 |   RUNNING |   WAITING |
+|               647 | 81 |     READY |   RUNNING |
+|               739 | 80 |   WAITING |     READY |
+|               740 | 81 |   RUNNING |   WAITING |
+|               740 | 80 |     READY |   RUNNING |
+|               808 | 81 |   WAITING |     READY |
+|               830 | 80 |   RUNNING |   WAITING |
+|               830 | 81 |     READY |   RUNNING |
+|               840 | 17 |   WAITING |     READY |
+|               922 | 80 |   WAITING |     READY |
+|               923 | 81 |   RUNNING |   WAITING |
+|               923 | 17 |     READY |   RUNNING |
+|               991 | 81 |   WAITING |     READY |
+|              1023 | 17 |   RUNNING |     READY |
+|              1023 | 17 |     READY |   RUNNING |
+|              1123 | 17 |   RUNNING |     READY |
+|              1123 | 17 |     READY |   RUNNING |
+|              1144 | 17 |   RUNNING |   WAITING |
+|              1144 | 80 |     READY |   RUNNING |
+|              1234 | 80 |   RUNNING |   WAITING |
+|              1234 | 81 |     READY |   RUNNING |
+|              1326 | 80 |   WAITING |     READY |
+|              1327 | 81 |   RUNNING |   WAITING |
+|              1327 | 80 |     READY |   RUNNING |
+|              1395 | 81 |   WAITING |     READY |
+|              1417 | 80 |   RUNNING |   WAITING |
+|              1417 | 81 |     READY |   RUNNING |
+|              1509 | 80 |   WAITING |     READY |
+|              1510 | 81 |   RUNNING |   WAITING |
+|              1510 | 80 |     READY |   RUNNING |
+|              1578 | 81 |   WAITING |     READY |
+|              1600 | 80 |   RUNNING |   WAITING |
+|              1600 | 81 |     READY |   RUNNING |
+|              1610 | 17 |   WAITING |     READY |
+|              1692 | 80 |   WAITING |     READY |
+|              1693 | 81 |   RUNNING |   WAITING |
+|              1693 | 17 |     READY |   RUNNING |
+|              1761 | 81 |   WAITING |     READY |
+|              1793 | 17 |   RUNNING |     READY |
+|              1793 | 17 |     READY |   RUNNING |
+|              1831 | 17 |   RUNNING |TERMINATED |
+|              1831 | 80 |     READY |   RUNNING |
+|              1904 | 80 |   RUNNING |TERMINATED |
+|              1904 | 81 |     READY |   RUNNING |
+|              1997 | 81 |   RUNNING |   WAITING |
+|              1997 | 82 |     READY |   RUNNING |
+|              2060 | 82 |   RUNNING |   WAITING |
+|              2065 | 81 |   WAITING |     READY |
+|              2065 | 81 |     READY |   RUNNING |
+|              2122 | 82 |   WAITING |     READY |
+|              2158 | 81 |   RUNNING |   WAITING |
+|              2158 | 82 |     READY |   RUNNING |
+|              2221 | 82 |   RUNNING |   WAITING |
+|              2226 | 81 |   WAITING |     READY |
+|              2226 | 81 |     READY |   RUNNING |
+|              2283 | 82 |   WAITING |     READY |
+|              2319 | 81 |   RUNNING |   WAITING |
+|              2319 | 82 |     READY |   RUNNING |
+|              2382 | 82 |   RUNNING |   WAITING |
+|              2387 | 81 |   WAITING |     READY |
+|              2387 | 81 |     READY |   RUNNING |
+|              2444 | 82 |   WAITING |     READY |
+|              2480 | 81 |   RUNNING |   WAITING |
+|              2480 | 82 |     READY |   RUNNING |
+|              2543 | 82 |   RUNNING |   WAITING |
+|              2548 | 81 |   WAITING |     READY |
+|              2548 | 81 |     READY |   RUNNING |
+|              2567 | 81 |   RUNNING |TERMINATED |
+|              2605 | 82 |   WAITING |     READY |
+|              2605 | 82 |     READY |   RUNNING |
+|              2668 | 82 |   RUNNING |   WAITING |
+|              2730 | 82 |   WAITING |     READY |
+|              2730 | 82 |     READY |   RUNNING |
+|              2793 | 82 |   RUNNING |   WAITING |
+|              2855 | 82 |   WAITING |     READY |
+|              2855 | 82 |     READY |   RUNNING |
+|              2918 | 82 |   RUNNING |   WAITING |
+|              2980 | 82 |   WAITING |     READY |
+|              2980 | 82 |     READY |   RUNNING |
+|              3043 | 82 |   RUNNING |   WAITING |
+|              3105 | 82 |   WAITING |     READY |
+|              3105 | 82 |     READY |   RUNNING |
+|              3168 | 82 |   RUNNING |   WAITING |
+|              3230 | 82 |   WAITING |     READY |
+|              3230 | 82 |     READY |   RUNNING |
+|              3293 | 82 |   RUNNING |   WAITING |
+|              3355 | 82 |   WAITING |     READY |
+|              3355 | 82 |     READY |   RUNNING |
+|              3418 | 82 |   RUNNING |   WAITING |
+|              3480 | 82 |   WAITING |     READY |
+|              3480 | 82 |     READY |   RUNNING |
+|              3492 | 82 |   RUNNING |TERMINATED |
++------------------------------------------------+
+Throughput: 3492
+Average response time: 130.750000
+Average turnaround time: 2409.250000
+Average wait time: 909.250000

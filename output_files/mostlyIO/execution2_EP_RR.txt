@@ -1,0 +1,55 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  4 |       NEW |     READY |
+|                 0 |  4 |     READY |   RUNNING |
+|                16 | 18 |       NEW |     READY |
+|                22 | 15 |       NEW |     READY |
+|                22 | 33 |       NEW |     READY |
+|                23 | 68 |       NEW |     READY |
+|               100 |  4 |   RUNNING |     READY |
+|               100 |  4 |     READY |   RUNNING |
+|               130 |  4 |   RUNNING |   WAITING |
+|               130 | 15 |     READY |   RUNNING |
+|               230 | 15 |   RUNNING |     READY |
+|               230 | 15 |     READY |   RUNNING |
+|               276 | 15 |   RUNNING |   WAITING |
+|               276 | 18 |     READY |   RUNNING |
+|               376 | 18 |   RUNNING |     READY |
+|               376 | 18 |     READY |   RUNNING |
+|               435 | 18 |   RUNNING |   WAITING |
+|               435 | 33 |     READY |   RUNNING |
+|               535 | 33 |   RUNNING |     READY |
+|               535 | 33 |     READY |   RUNNING |
+|               543 | 33 |   RUNNING |   WAITING |
+|               543 | 68 |     READY |   RUNNING |
+|               643 | 68 |   RUNNING |     READY |
+|               643 | 68 |     READY |   RUNNING |
+|               675 | 68 |   RUNNING |   WAITING |
+|               946 |  4 |   WAITING |     READY |
+|               946 |  4 |     READY |   RUNNING |
+|              1016 |  4 |   RUNNING |TERMINATED |
+|              1035 | 18 |   WAITING |     READY |
+|              1035 | 18 |     READY |   RUNNING |
+|              1120 | 15 |   WAITING |     READY |
+|              1135 | 18 |   RUNNING |     READY |
+|              1135 | 15 |     READY |   RUNNING |
+|              1224 | 15 |   RUNNING |TERMINATED |
+|              1224 | 18 |     READY |   RUNNING |
+|              1251 | 33 |   WAITING |     READY |
+|              1283 | 18 |   RUNNING |   WAITING |
+|              1283 | 33 |     READY |   RUNNING |
+|              1373 | 33 |   RUNNING |TERMINATED |
+|              1883 | 18 |   WAITING |     READY |
+|              1883 | 18 |     READY |   RUNNING |
+|              1907 | 68 |   WAITING |     READY |
+|              1983 | 18 |   RUNNING |     READY |
+|              1983 | 18 |     READY |   RUNNING |
+|              1993 | 18 |   RUNNING |TERMINATED |
+|              1993 | 68 |     READY |   RUNNING |
+|              2000 | 68 |   RUNNING |TERMINATED |
++------------------------------------------------+
+Throughput: 2000
+Average response time: 260.200012
+Average turnaround time: 1504.599976
+Average wait time: 304.599976
